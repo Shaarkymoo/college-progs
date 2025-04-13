@@ -156,7 +156,7 @@ def decode_lsb(image_path):
 
 
 
-meme_path = r"D:/college/Sem8/csd4002 ethical hacking/img5.png"
+meme_path = r"D:/college/Sem8/csd4002 ethical hacking/img6.jpg"
 #images = os.listdir(meme_path)
 #test_image1 = random.choice(images)
 
@@ -166,7 +166,7 @@ print(input_image1)
 #os.startfile(input_image)
 
 output_image1 = "output1.png"
-secret_message1 = r"start reverse_shell 192.168.1.100:4444"
+secret_message1 = r"add_admin_user hiddenAdmin P@ssw0rd!"
 
 encode_lsb(input_image1, output_image1, secret_message1)
 
